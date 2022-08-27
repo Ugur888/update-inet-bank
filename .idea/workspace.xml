@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9734c917-b17d-4231-b56b-be5c3cac42d1" name="Changes" comment="LoginPage update">
+    <list default="true" id="9734c917-b17d-4231-b56b-be5c3cac42d1" name="Changes" comment="updating git ignore">
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/ManagerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ManagerHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +36,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IdeaProjects/update-inet-bank/drivers&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\update-inet-bank\drivers" />
