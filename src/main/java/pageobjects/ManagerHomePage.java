@@ -9,15 +9,15 @@ public class ManagerHomePage {
 
     WebDriver ldriver;
 
-    public ManagerHomePage(WebDriver rdriver){
-        ldriver=rdriver;
+    public ManagerHomePage(WebDriver rdriver) {
+        ldriver = rdriver;
         PageFactory.initElements(rdriver, this);
     }
 
-    @FindBy(xpath="//table//*[@style='color: green']")
+    @FindBy(xpath = "//table//*[@style='color: green']")
     WebElement manager_id_number;
 
-    public String getManagerIdNumber(){
+    public String getManagerIdNumber() {
         return manager_id_number.getText();
     }
 
