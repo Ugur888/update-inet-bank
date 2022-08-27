@@ -9,30 +9,29 @@ public class LoginPage {
 
     WebDriver ldriver;
 
-    public LoginPage(WebDriver rdriver)
-    {
-        ldriver=rdriver;
+    public LoginPage(WebDriver rdriver) {
+        ldriver = rdriver;
         PageFactory.initElements(rdriver, this);
     }
 
-    @FindBy(xpath="//*[@name='uid']")
+    @FindBy(xpath = "//*[@name='uid']")
     WebElement user_name_field;
 
-    @FindBy(xpath="//*[@name='password']")
+    @FindBy(xpath = "//*[@name='password']")
     WebElement password_field;
 
-    @FindBy(xpath="//*[@name='btnLogin']")
+    @FindBy(xpath = "//*[@name='btnLogin']")
     WebElement login_button;
 
-    public void setUserName(String uname){
+    public void setUserName(String uname) {
         user_name_field.sendKeys(uname);
     }
 
-    public void setPassword(String pwd){
+    public void setPassword(String pwd) {
         password_field.sendKeys(pwd);
     }
 
-    public void clickSubmit(){
+    public void clickSubmit() {
         login_button.click();
     }
 }
