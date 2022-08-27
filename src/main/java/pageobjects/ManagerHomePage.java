@@ -7,10 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ManagerHomePage {
 
-    /**
-     * Salam Ugur
-     */
-
     WebDriver ldriver;
 
     public ManagerHomePage(WebDriver rdriver) {

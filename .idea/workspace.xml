@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9734c917-b17d-4231-b56b-be5c3cac42d1" name="Changes" comment="Anar's commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9734c917-b17d-4231-b56b-be5c3cac42d1" name="Changes" comment="updating git ignore">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/ManagerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ManagerHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +81,7 @@
       <option name="project" value="LOCAL" />
       <updated>1661616172241</updated>
     </task>
-    <task id="LOCAL-00002" summary="Anar's commit">
-      <created>1661616751883</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1661616751884</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,7 +97,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LoginPage update" />
-    <MESSAGE value="Anar's commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anar's commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginPage update" />
   </component>
 </project>
