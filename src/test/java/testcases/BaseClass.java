@@ -1,13 +1,18 @@
+package testcases;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import utilities.ReadConfig;
 
 public class BaseClass {
 
-    public String baseUrl = "https://demo.guru99.com/V4/index.php";
-    public String username = "mngr432447";
-    public String password = "vEtevuq";
+    ReadConfig readconfig = new ReadConfig();
+
+    public String baseUrl = readconfig.getAlicationURL();
+    public String username = readconfig.getUsername();
+    public String password = readconfig.getPassword();
     public static WebDriver driver;
 
     public static org.apache.log4j.Logger Logger;
