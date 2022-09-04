@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9734c917-b17d-4231-b56b-be5c3cac42d1" name="Changes" comment="ManagerHomePage update">
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/LoginDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/LoginData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Reporting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/XLUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReadConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadConfig.java" afterDir="false" />
     </list>
@@ -42,7 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/IdeaProjects/update-inet-bank/TestNG.xml",
+    "last_opened_file_path": "C:/IdeaProjects/update-inet-bank/src/test/java/testdata",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -56,10 +59,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\update-inet-bank\src\test\java\testdata" />
       <recent name="C:\IdeaProjects\update-inet-bank\drivers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/IdeaProjects/update-inet-bank/TestNG.xml">
+    <configuration name="C:/IdeaProjects/update-inet-bank/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="update-inet-bank" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="update-inet-bank" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/IdeaProjects/update-inet-bank/TestNG.xml" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
       </list>
@@ -116,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661805337517</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ManagerHomePage update">
+      <created>1661957946069</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661957946069</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
