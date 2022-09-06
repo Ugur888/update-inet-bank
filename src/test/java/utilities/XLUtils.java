@@ -29,7 +29,7 @@ public class XLUtils {
         return rowcount;
     }
 
-    public static int getCellCount(String xlfile, String xlsheet, int rownum) throws IOException{
+    public static int getCellCount(String xlfile, String xlsheet, int rownum) throws IOException {
         fi = new FileInputStream(xlfile);
         wb = new XSSFWorkbook(fi);
         ws = wb.getSheet(xlsheet);
@@ -40,19 +40,18 @@ public class XLUtils {
         return cellcount;
     }
 
-    public static String getCellData(String xlfile, String xlsheet, int rownum, int colnum) throws IOException{
+    public static String getCellData(String xlfile, String xlsheet, int rownum, int colnum) throws IOException {
         fi = new FileInputStream(xlfile);
         wb = new XSSFWorkbook(fi);
         ws = wb.getSheet(xlsheet);
         row = ws.getRow(rownum);
         cell = row.getCell(colnum);
         String data;
-        try{
+        try {
             DataFormatter formatter = new DataFormatter();
             String cellData = formatter.formatCellValue(cell);
-            return  cellData;
-        }
-        catch (Exception e){
+            return cellData;
+        } catch (Exception e) {
             data = "";
         }
         wb.close();
@@ -60,7 +59,7 @@ public class XLUtils {
         return data;
     }
 
-    public static void setCellData(String xlfile, String xlsheet, int rownum, int colnum, String data) throws IOException{
+    public static void setCellData(String xlfile, String xlsheet, int rownum, int colnum, String data) throws IOException {
         fi = new FileInputStream(xlfile);
         wb = new XSSFWorkbook(fi);
         ws = wb.getSheet(xlsheet);
